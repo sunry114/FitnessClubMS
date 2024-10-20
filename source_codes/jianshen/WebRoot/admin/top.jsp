@@ -30,28 +30,28 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<script language="javascript">
 			function calender()
 			{
-				 var time=new Date();
-				 var year=time.getYear();
-				 var month=time.getMonth()+1;
-				 var day=time.getDate();
-				 var hour=time.getHours();
-				 var minute=time.getMinutes();
-				 var second=time.getSeconds();
-				 if(minute<10)
-				 {
-				  minute="0"+minute;
-				 }
-				 if(second<10)
-				 {
-				  second="0"+second;
-				 }
-				 document.myform.date.value=year+"-"+month+"-"+day+" "+hour+":"+minute+":"+second;
-				 var mytime=setTimeout("calender()",1000);
+				var time=new Date();
+				var year=time.getYear();
+				var month=time.getMonth()+1;
+				var day=time.getDate();
+				var hour=time.getHours();
+				var minute=time.getMinutes();
+				var second=time.getSeconds();
+				if(minute<10)
+				{
+				minute="0"+minute;
+				}
+				if(second<10)
+				{
+				second="0"+second;
+				}
+				document.myform.date.value=year+"-"+month+"-"+day+" "+hour+":"+minute+":"+second;
+				var mytime=setTimeout("calender()",1000);
 			}
 			</script>
-  </head>
-  
-  <body onload="calender()">
+</head>
+
+<body onload="calender()">
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
 			<tr>
 				<td height="57" background="<%=path %>/images/main_03.gif">
@@ -59,7 +59,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<tr>
 							
 							<td style="FONT-WEIGHT: bold; FONT-SIZE: 23pt; FILTER: Glow(Color=#00347F,Strength=4); WIDTH: 100%; COLOR: #ffffff; font-family: 黑体">
-							     &nbsp;&nbsp;会员制健身中心管理系统
+							    &nbsp;&nbsp;会员制健身中心管理系统
 							</td>
 							<td width="281" valign="bottom">
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
