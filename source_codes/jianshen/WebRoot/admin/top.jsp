@@ -59,7 +59,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<tr>
 							
 							<td style="FONT-WEIGHT: bold; FONT-SIZE: 23pt; FILTER: Glow(Color=#00347F,Strength=4); WIDTH: 100%; COLOR: #ffffff; font-family: 黑体">
-							    &nbsp;&nbsp;会员制健身中心管理系统
+							&nbsp;&nbsp;M.U.S.T 健身俱樂部
 							</td>
 							<td width="281" valign="bottom">
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -83,7 +83,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 													</td>
 													<td>
 														<div align="right">
-															<input type="image" src="<%=path %>/images/quit.gif" width="70" onclick="javascript:parent.location='<%=path %>/admin/logout.jsp';" />
+															<input type="image" src="<%=path %>/images/quit.png" width="70" onclick="javascript:parent.location='<%=path %>/admin/logout.jsp';" />
 															
 														</div>
 													</td>
@@ -101,7 +101,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<td height="40" background="<%=path %>/images/main_10.gif">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">
 						<tr>
-							<td width="194" height="40" background="<%=path %>/images/main_07.gif">&nbsp;
+							<td width="194" height="40" background="<%=path %>/images/school.png">&nbsp;
 								
 							</td>
 							<td>
@@ -112,7 +112,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										</td>
 										<td width="35" class="STYLE7">
 											<div align="center">
-												首页
+												首頁
 											</div>
 										</td>
 										<td width="21" class="STYLE7">
@@ -120,7 +120,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										</td>
 										<td width="35" class="STYLE7">
 											<div align="center">
-												后退
+												後退
 											</div>
 										</td>
 										<td width="21" class="STYLE7">
@@ -128,7 +128,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										</td>
 										<td width="35" class="STYLE7">
 											<div align="center">
-												前进
+												前進
 											</div>
 										</td>
 										<td width="21" class="STYLE7">
@@ -144,7 +144,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										</td>
 										<td width="35" class="STYLE7">
 											<div align="center">
-												帮助
+												幫助
 											</div>
 										</td>
 										<td>&nbsp;
@@ -162,7 +162,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										<td width="75%">
 											<div align="center">
 												<span class="STYLE7"><form name="myform" style="margin:0px;">
-														服务器时间：
+														當前時間：
 														<input type="text" name="date" value="" size="15"
 															style="height:15px; width:100px; border:solid 1px #cadcb2; font-size:12px; color:#81b432;" />
 													</form>
@@ -193,7 +193,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 											
 										</td>
 										<td width="43%" height="20" valign="bottom" class="STYLE1">
-											管理菜单
+											管理菜單
 										</td>
 										<td width="33%">&nbsp;
 											
@@ -208,7 +208,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td height="20" valign="bottom">
-											<span class="STYLE1">当前登录用户： <s:property value="#session.user.userName"/></span>
+											<span class="STYLE1">當前登錄用戶： <s:property value="#session.user.userName"/></span>
 										</td>
 										<td valign="bottom" class="STYLE1">
 											

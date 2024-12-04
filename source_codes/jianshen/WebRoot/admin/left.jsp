@@ -58,7 +58,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="33" height="28">
-												<img src="<%=path %>/images/main_40.gif" width="28" height="28">
+												<img src="<%=path %>/images/changepwd.png" width="28" height="28">
 											</td>
 											<td width="99">
 												<table width="100%" border="0" cellspacing="0"
@@ -67,7 +67,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/admin/anquan/userPwEdit.jsp" target="rightF">修改密码</a>
+															<a href="<%=path %>/admin/anquan/userPwEdit.jsp" target="rightF">修改密碼</a>
 														</td>
 													</tr>
 												</table>
@@ -82,7 +82,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="33" height="28">
-												<img src="<%=path %>/images/main_40.gif" width="28" height="28">
+												<img src="<%=path %>/images/staff.png" width="28" height="28">
 											</td>
 											<td width="99">
 												<table width="100%" border="0" cellspacing="0"
@@ -91,7 +91,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/userManage.action" target="rightF">工作人员管理</a>
+															<a href="<%=path %>/userManage.action" target="rightF">工作人員管理</a>
 														</td>
 													</tr>
 												</table>
@@ -105,7 +105,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="33" height="28">
-												<img src="<%=path %>/images/main_40.gif" width="28" height="28">
+												<img src="<%=path %>/images/card.png" width="28" height="28">
 											</td>
 											<td width="99">
 												<table width="100%" border="0" cellspacing="0"
@@ -114,7 +114,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/cardManage.action" target="rightF"> 会员卡类型管理</a>
+															<a href="<%=path %>/cardManage.action" target="rightF"> 會員卡類型管理</a>
 														</td>
 													</tr>
 												</table>
@@ -128,7 +128,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="33" height="28">
-												<img src="<%=path %>/images/main_40.gif" width="28" height="28">
+												<img src="<%=path %>/images/info.png" width="28" height="28">
 											</td>
 											<td width="99">
 												<table width="100%" border="0" cellspacing="0"
@@ -137,7 +137,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/huiyuanManage.action" target="rightF"> 会员资料管理</a>
+															<a href="<%=path %>/huiyuanManage.action" target="rightF"> 會員信息管理</a>
 														</td>
 													</tr>
 												</table>
@@ -151,7 +151,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="33" height="28">
-												<img src="<%=path %>/images/main_40.gif" width="28" height="28">
+												<img src="<%=path %>/images/search.png" width="28" height="28">
 											</td>
 											<td width="99">
 												<table width="100%" border="0" cellspacing="0"
@@ -160,7 +160,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/admin/huiyuan/huiyuanSearch.jsp" target="rightF"> 会员搜索</a>
+															<a href="<%=path %>/admin/huiyuan/huiyuanSearch.jsp" target="rightF"> 搜索會員</a>
 														</td>
 													</tr>
 												</table>
@@ -174,7 +174,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="33" height="28">
-												<img src="<%=path %>/images/main_40.gif" width="28" height="28">
+												<img src="<%=path %>/images/qicai.png" width="28" height="28">
 											</td>
 											<td width="99">
 												<table width="100%" border="0" cellspacing="0"
@@ -197,7 +197,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="33" height="28">
-												<img src="<%=path %>/images/main_40.gif" width="28" height="28">
+												<img src="<%=path %>/images/coach.png" width="28" height="28">
 											</td>
 											<td width="99">
 												<table width="100%" border="0" cellspacing="0"
@@ -206,7 +206,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/zhijiaoManage.action" target="rightF">教练执教管理管理</a>
+															<a href="<%=path %>/zhijiaoManage.action" target="rightF">教練執教管理</a>
 														</td>
 													</tr>
 												</table>
@@ -220,7 +220,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="33" height="28">
-												<img src="<%=path %>/images/main_40.gif" width="28" height="28">
+												<img src="<%=path %>/images/quit.png" width="28" height="28">
 											</td>
 											<td width="99">
 												<table width="100%" border="0" cellspacing="0"
@@ -229,7 +229,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="#" onclick="javascript:parent.parent.location='<%=path %>/admin/logout.jsp';" >安全退出系统</a>
+															<a href="#" onclick="javascript:parent.parent.location='<%=path %>/admin/logout.jsp';" >安全退出系統</a>
 														</td>
 													</tr>
 												</table>
