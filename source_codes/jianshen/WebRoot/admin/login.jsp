@@ -10,49 +10,66 @@
         <TITLE>
         </TITLE>
 
-        <STYLE type=text/css>
-          TD {
-            FONT-SIZE: 9pt;
-            FONT-family: 宋体
+        <style type="text/css">
+        body, html {
+          height: 100%;
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background: url('../images/login_bg.jpg') no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+        .container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+        }
+        .center-box {
+          background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+          padding: 20px;
+          border-radius: 10px; /* 圆角 */
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .login-form {
+          background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+          padding: 20px;
+          border-radius: 10px; /* 圆角 */
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+          .main-title {
+            text-align: center;
+            margin-bottom: 20px;
           }
-
-          A:link {
-            CURSOR: hand;
-            COLOR: #000000;
-            FONT-STYLE: normal;
-            TEXT-DECORATION: none
+          .login-form input[type="text"],
+          .login-form input[type="password"] {
+          width: 60%;
+          padding: 10px;
+          margin: 10px 0;
+          border: 1px solid #ccc;
+          border-radius: 5px;
           }
-
-          A:visited {
-            COLOR: #000000;
-            FONT-STYLE: normal;
-            TEXT-DECORATION: none
+          #button {
+            width: 50%;
+            color: #fff;
+            padding: 10px;
+            background-color: #2875d3;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
           }
-
-          A:active {
-            COLOR: #000000;
-            FONT-STYLE: normal;
-            TEXT-DECORATION: none
+          #button:hover {
+            transform:scale(1.1);
+            background-color: #516ba6;
           }
-
-          A:hover {
-            COLOR: #3399ff
+          .subheader {
+            text-align: center;
           }
-
-          .style1 {
-            font-size: 14px;
-            font-weight: bold;
-          }
-
-          #Layer1 {
-            position: absolute;
-            left: 133px;
-            top: 155px;
-            width: 389px;
-            height: 336px;
-            z-index: 1;
-          }
-        </STYLE>
+        </style>
         <script language="javascript">
           function check() {
             if (document.ThisForm.username.value == "") {
@@ -82,153 +99,36 @@
         <META content="MSHTML 6.00.2800.1522" name=GENERATOR>
       </HEAD>
 
-      <BODY style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-BOTTOM-STYLE: none" bgColor=#366ab5
-        style="overflow:hidden">
-        <form name=ThisForm action="<%=path %>/adminLogin.action" method="POST">
-          <TABLE height="100%" cellSpacing=5 cellPadding=0 width="100%" align=center border=0>
-            <TBODY>
-              <TR>
-                <TD vAlign=center align=middle>
-                  <TABLE cellSpacing=0 cellPadding=0 width=778 align=center border=0>
-                    <TBODY>
-                      <TR>
-                        <TD colSpan=3 height=5><IMG height=5 src="<%=path %>/images/admin_1_1.gif" width=778></TD>
-                      </TR>
-                      <TR>
-                        <TD width=11><IMG height=450 src="<%=path %>/images/admin_left_1.gif" width=11></TD>
-                        <TD vAlign=top width=756 background="<%=path %>/images/admin_bg.gif">
-                          <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-                            <TBODY>
-                              <TR>
-                                <TD height=35>&nbsp;</TD>
-                              </TR>
-                            </TBODY>
-                          </TABLE>
-                          <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-                            <TBODY>
-                              <TR>
-                                <TD width=390 height=50><IMG height=50 src="<%=path %>/images/admin_2_1.gif" width=390>
-                                </TD>
-                                <TD>&nbsp;</TD>
-                              </TR>
-                            </TBODY>
-                          </TABLE>
-                          <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-                            <TBODY>
-                              <TR>
-                                <TD height=54 valign="top" background="<%=path %>/images/admin_3_4.gif">
-                                  <table width="70%" border="0" align="right" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                      <td>
-                                        <div
-                                          style="FONT-WEIGHT: bold; FONT-SIZE: 23pt; FILTER: Glow(Color=#00347F,Strength=4); WIDTH: 100%; COLOR: #ffffff; font-family: 黑体">
-                                          澳科大健身俱乐部管理系统</div>
-                                      </td>
-                                    </tr>
-                                  </table>
-                                </TD>
-                              </TR>
-                            </TBODY>
-                          </TABLE>
-                          <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-                            <TBODY>
-                              <TR>
-                                <TD><IMG height=46 src="<%=path %>/images/admin_4_1.gif" width=440></TD>
-                                <TD vAlign=top width=316 rowSpan=7>
-                                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-                                    <TBODY>
-                                      <TR>
-                                        <TD><IMG height=19 src="<%=path %>/images/admin_4_2_1.gif" width=314></TD>
-                                      </TR>
-                                      <TR>
-                                        <TD>
-                                          <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-                                            <TBODY>
+      <BODY>
+        <DIV class="container">
+          <DIV class="center-box">
+            <DIV class="main-header">
+              <h2>澳科大健身俱樂部管理系統</h2>
+            </DIV>
+            <form class="login-form" name=ThisForm action="<%=path %>/adminLogin.action" method="POST" >
+              <TABLE style="FONT-SIZE: 12px" cellSpacing=0 cellPadding=0 width="92%"align=center border=0>
+                  <TR>
+                    <TD height=30 colSpan=2 class="subheader"><h3 class="subheader">用戶登錄 </h3>
+                  <TR>
+                    <TD width="10%"><img src="<%=path %>/images/User.svg" width="20" height="20"></TD>
+                    <TD width="85%" height=30> 用戶名：
+                      <input name="userName" type="text" id="userName" width="50">
+                    </TD>
+                  </TR>
+                  <TR>
+                    <TD width="10%"><img src="<%=path %>/images/i_open.gif" width="20" height="18"></TD>
+                    <TD width="85%" height=30>密&nbsp;&nbsp;&nbsp;碼： 
+                      <input name="userPw" type="password" id="userPw" width="50">
+                    </TD>
+                  </TR>
 
-                                              <TR>
-                                                <TD width=32><IMG height=188 src="<%=path %>/images/admin_4_2_2_1.gif"
-                                                    width=32></TD>
-                                                <TD width=260 background="<%=path %>/images/admin_4_2_2_bg.gif">
-                                                  <TABLE style="FONT-SIZE: 12px" cellSpacing=0 cellPadding=0 width="92%"
-                                                    align=center border=0>
-                                                    <TR>
-                                                      <TD height=30 colSpan=2><span class="style1">用户登录 </span>
-                                                    <TR>
-                                                      <TD width="10%"><img src="<%=path %>/images/icon_myalbum.gif"
-                                                          width="14" height="14"></TD>
-                                                      <TD width="85%" height=30> 用户名：
-                                                        <input name="userName" type="text" id="userName" size="15">
-                                                      </TD>
-                                                    </TR>
-                                                    <TR>
-                                                      <TD><img src="<%=path %>/images/i_open.gif" width="15"
-                                                          height="13"></TD>
-                                                      <TD height=30>密&nbsp;&nbsp;码：
-                                                        <input name="userPw" type="password" id="userPw" size="15">
-                                                      </TD>
-                                                    </TR>
-
-                                                    <TR valign="bottom">
-                                                      <TD height=50 colSpan=2 align="center"><input name="imageField"
-                                                          type="image" onClick="return check();"
-                                                          src="<%=path %>/images/login_19.gif"></TD>
-                                                    </TR>
-                                                  </TABLE>
-                                                </TD>
-                                                <TD width=22><IMG height=188 src="<%=path %>/images/admin_4_2_2_2.gif"
-                                                    width=22></TD>
-                                              </TR>
-                                          </TABLE>
-                                        </TD>
-                                      </TR>
-                                      <TR>
-                                        <TD vAlign=bottom width=314 background="" height=104>
-                                          <TABLE cellSpacing=0 cellPadding=0 width="100%" align=right border=0>
-                                            <TBODY>
-                                              <TR>
-                                                <TD style="FONT-SIZE: 16px; COLOR: #ffffff" vAlign=top align=middle
-                                                  height=45><B></B></TD>
-                                              </TR>
-                                              <TR>
-                                                <TD style="FONT-SIZE: 12px; COLOR: #ffffff" vAlign=bottom align=right>
-                                                  &nbsp;</TD>
-                                              </TR>
-                                            </TBODY>
-                                          </TABLE>
-                                        </TD>
-                                      </TR>
-                                  </TABLE>
-                                </TD>
-                              </TR>
-                              <TR>
-                                <TD><IMG height=40 src="<%=path %>/images/admin_5_1.gif" width=440></TD>
-                              </TR>
-                              <TR>
-                                <TD><IMG height=50 src="<%=path %>/images/admin_6_1.gif" width=440></TD>
-                              </TR>
-                              <TR>
-                                <TD><IMG height=50 src="<%=path %>/images/admin_7_1.gif" width=440></TD>
-                              </TR>
-                              <TR>
-                                <TD><IMG height=51 src="<%=path %>/images/admin_8_1.gif" width=440></TD>
-                              </TR>
-                              <TR>
-                                <TD><IMG height=39 src="<%=path %>/images/admin_9_1.gif" width=440></TD>
-                              </TR>
-                              <TR>
-                                <TD><IMG height=35 src="<%=path %>/images/admin_10_1.gif" width=440></TD>
-                              </TR>
-                          </TABLE>
-                        </TD>
-                        <TD width=11><IMG height=450 src="<%=path %>/images/admin_right_1.gif" width=11></TD>
-                      </TR>
-                      <TR>
-                        <TD colSpan=3 height=13><IMG height=13 src="<%=path %>/images/admin_1_2.gif" width=778></TD>
-                      </TR>
-                    </TBODY>
-                  </TABLE>
-              </TR>
-            </TBODY>
-          </TABLE>
-        </FORM>
-      </body>
+                  <TR valign="bottom">
+                    <TD height=50 colSpan=2 align="center" >
+                      <button name="imageField" type="submit" onClick="return check();" id="button">登錄</button>
+                    </TD>
+                  </TR>
+                </TABLE>
+            </FORM>
+          </DIV>
+        </DIV>
+      </BODY>
