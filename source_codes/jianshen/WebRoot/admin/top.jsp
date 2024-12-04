@@ -65,30 +65,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td width="33" height="27">
-											
 										</td>
 										<td width="248" background="<%=path %>/images/main_06.gif">
-											<table width="225" border="0" align="center" cellpadding="0"
-												cellspacing="0">
-												<tr>
-													<td height="17">
-														<div align="right">
-															<!--<img src="<%=path %>/images/pass.gif" width="69" height="17" />-->
-														</div>
-													</td>
-													<td>
-														<div align="right">
-															<!--<img src="<%=path %>/images/user.gif" width="69" height="17" />-->
-														</div>
-													</td>
-													<td>
-														<div align="right">
-															<input type="image" src="<%=path %>/images/quit.png" width="70" onclick="javascript:parent.location='<%=path %>/admin/logout.jsp';" />
-															
-														</div>
-													</td>
-												</tr>
-											</table>
 										</td>
 									</tr>
 								</table>
@@ -105,9 +83,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								
 							</td>
 							<td>
-								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<table width="95%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
-										<td width="21">
+										<td width="20">
 											<img src="<%=path %>/images/main_13.gif" width="19" height="14" />
 										</td>
 										<td width="35" class="STYLE7">

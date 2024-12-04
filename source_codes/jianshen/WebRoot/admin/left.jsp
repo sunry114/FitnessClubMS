@@ -31,10 +31,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			a:hover{font-size:12px; text-decoration:none; color:#FF0000;}
 			-->
 		</style>
-  </head>
-  
-  <body>
-		<table width="147" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+</head>
+
+<body>
+		<table width="147" height="100%" border="0" align="center" cellpadding="1" cellspacing="0">
 			<tr>
 				<td height="23">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -52,13 +52,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</tr>
 			<tr>
 				<td valign="top">
-						<table width="82%" border="0" align="center" cellpadding="0"cellspacing="0">
+						<table width="90%" border="0" align="center" cellpadding="0"cellspacing="0">
 							<tr>
 								<td height="38">
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="33" height="28">
-												<img src="<%=path %>/images/changepwd.png" width="28" height="28">
+												<img src="<%=path %>/images/changepwd.png" width="26" height="26">
 											</td>
 											<td width="99">
 												<table width="100%" border="0" cellspacing="0"
@@ -76,13 +76,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									</table>
 								</td>
 							</tr>
-							<tr>
-							<tr>
 								<td height="38">
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
-											<td width="33" height="28">
-												<img src="<%=path %>/images/staff.png" width="28" height="28">
+											<td width="30" height="25">
+												<img src="<%=path %>/images/staff.png" width="30" height="25">
 											</td>
 											<td width="99">
 												<table width="100%" border="0" cellspacing="0"
@@ -101,11 +99,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								</td>
 							</tr>
 							<tr>
-								<td height="38">
+								<td height="36">
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
-											<td width="33" height="28">
-												<img src="<%=path %>/images/card.png" width="28" height="28">
+											<td width="30" height="28">
+												<img src="<%=path %>/images/card.png" width="30" height="28">
 											</td>
 											<td width="99">
 												<table width="100%" border="0" cellspacing="0"
@@ -147,7 +145,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								</td>
 							</tr>
 							<tr>
-								<td height="38">
+								<td height="36">
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="33" height="28">

@@ -6,7 +6,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-  <head>
+<head>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
@@ -22,11 +22,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				overflow:hidden;
 			}
 			-->
-   </style>
-  </head>
-  
-  <body>
-		<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+</style>
+</head>
+
+<body>
+		<table width="100%" height="100%" border="0" margin="10" padding="10" cellspacing="0" cellpadding="0">
 			<tr>
 				<td width="8" bgcolor="#353c44">
 					&nbsp;

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jianshen:Web exploded">
+    <output-path>D:/tomcat/apache-tomcat-8.0.26-windows-x64/apache-tomcat-8.0.26/webapps</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jianshen/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jianshen" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
