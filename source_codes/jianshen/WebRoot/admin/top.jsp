@@ -79,8 +79,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<td height="40" background="<%=path %>/images/main_10.gif">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">
 						<tr>
-							<td width="194" height="40" background="<%=path %>/images/school.png">&nbsp;
-								
+							<td width="200" height="40" background="<%=path %>/images/school.png">&nbsp;
 							</td>
 							<td>
 								<table width="95%" border="0" cellspacing="0" cellpadding="0">
