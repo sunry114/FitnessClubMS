@@ -36,7 +36,7 @@ public class QicaiAction extends ActionSupport
 		qicai.setQicaiName(qicaiName);
 		
 		qicaiDAO.save(qicai);
-		this.setMessage("录入成功");
+		this.setMessage("娣诲姞鎴愬姛!");
 		this.setPath("qicaiManage.action");
 		return "succeed";
 	}
@@ -52,7 +52,7 @@ public class QicaiAction extends ActionSupport
 	public String qicaiDel()
 	{
 		qicaiDAO.delete(qicaiDAO.findById(qicaiId));
-		this.setMessage("删除成功");
+		this.setMessage("鍒櫎鎴愬姛!");
 		this.setPath("qicaiManage.action");
 		return "succeed";
 	}

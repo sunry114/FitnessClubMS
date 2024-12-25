@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.struts2.ServletActionContext;
-
 import com.dao.TCardDAO;
 import com.dao.TUserDAO;
 import com.model.TCard;
@@ -35,7 +34,7 @@ public class CardAction extends ActionSupport
 		card.setCardYouhuizhengce(cardYouhuizhengce);
 		
 		cardDAO.save(card);
-		this.setMessage("录入成功");
+		this.setMessage("娣诲姞鎴愬姛!");
 		this.setPath("cardManage.action");
 		return "succeed";
 	}
@@ -51,7 +50,7 @@ public class CardAction extends ActionSupport
 	public String cardDel()
 	{
 		cardDAO.delete(cardDAO.findById(cardId));
-		this.setMessage("删除成功");
+		this.setMessage("鍒櫎鎴愬姛!");
 		this.setPath("cardManage.action");
 		return "succeed";
 	}

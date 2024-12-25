@@ -23,17 +23,11 @@ public class UserAction extends ActionSupport
 	private String userEmail;
 	private String userQq;
 	private String userOne1;
-   
-	
-	
 	
 	private String message;
 	private String path;
 	
 	private TUserDAO userDAO;
-	
-	
-	
 	public String adminLogin()
 	{
 		String sql="from TUser where userName=? and userPw=? and userType=0";
@@ -42,15 +36,15 @@ public class UserAction extends ActionSupport
 		if(userList.size()==0)
 		{
 			Map request=(Map)ServletActionContext.getContext().get("request");
-			request.put("error", "ÓÃ»§Ãû»òÃÜÂë´íÎó");
+			request.put("error", "ç™»éŒ„å¤±æ•—!");
     		return ActionSupport.ERROR;
 		}
 		else
 		{
-			 Map session= ServletActionContext.getContext().getSession();
-			 TUser user=(TUser)userList.get(0);
-			 session.put("admin", user);
-			 return ActionSupport.SUCCESS;
+			Map session= ServletActionContext.getContext().getSession();
+			TUser user=(TUser)userList.get(0);
+			session.put("admin", user);
+			return ActionSupport.SUCCESS;
 		}
 	}
 	
@@ -62,15 +56,15 @@ public class UserAction extends ActionSupport
 		if(userList.size()==0)
 		{
 			Map request=(Map)ServletActionContext.getContext().get("request");
-			request.put("error", "ÓÃ»§Ãû»òÃÜÂë´íÎó");
+			request.put("error", "ç™»éŒ„å¤±æ•—!");
     		return ActionSupport.ERROR;
 		}
 		else
 		{
-			 Map session= ServletActionContext.getContext().getSession();
-			 TUser user=(TUser)userList.get(0);
-			 session.put("user", user);
-			 return ActionSupport.SUCCESS;
+			Map session= ServletActionContext.getContext().getSession();
+			TUser user=(TUser)userList.get(0);
+			session.put("user", user);
+			return ActionSupport.SUCCESS;
 		}
 	}
 	
@@ -95,7 +89,7 @@ public class UserAction extends ActionSupport
 		user.setUserPw(userPw);
 		userDAO.getHibernateTemplate().update(user);
 		
-		this.setMessage("ĞŞ¸Ä³É¹¦");
+		this.setMessage("æ­£åœ¨æ›´æ”¹ç”¨æˆ¶å¯†ç¢¼!");
 		this.setPath("/admin/anquan/userPwEdit.jsp");
 		return "succeed";
 	}
@@ -118,10 +112,7 @@ public class UserAction extends ActionSupport
 		this.setPath("/index.jsp");
 		return "succeed";
 	}
-	
-	
-	
-	//¹¤×÷ÈËÔ±Â¼Èë
+
 	public String userAdd()
 	{
 		TUser user=new TUser();
@@ -137,9 +128,7 @@ public class UserAction extends ActionSupport
 		this.setPath("userManage.action");
 		return "succeed";
 	}
-	
-	
-    //»áÔ±Â¼Èë
+
 	public String huiyuanAdd()
 	{
 		TUser user=new TUser();
@@ -155,10 +144,7 @@ public class UserAction extends ActionSupport
 		this.setPath("huiyuanManage.action");
 		return "succeed";
 	}
-	
-	
 
-	//¹¤×÷ÈËÔ±¹ÜÀí
 	public String userManage()
 	{
 		List userList=userDAO.findAllGongzuoRenyuan();
@@ -167,7 +153,6 @@ public class UserAction extends ActionSupport
 		return ActionSupport.SUCCESS;
 	}
 	
-//	»áÔ±¹ÜÀí
 	public String huiyuanManage()
 	{
 		List userList=userDAO.findAllHuiyuan();
@@ -208,7 +193,7 @@ public class UserAction extends ActionSupport
 		userDAO.getHibernateTemplate().update(user);
 		
 		session.put("user", user);
-		this.setMessage("ĞŞ¸Ä³É¹¦");
+		this.setMessage("ç”¨æˆ¶ä¿¡æ¯ä¿®æ”¹ä¸­");
 		this.setPath("/userinfo.jsp");
 		
 		return "succeed";
@@ -218,7 +203,7 @@ public class UserAction extends ActionSupport
 	public String delUser()
 	{
 		userDAO.delete(userDAO.findById(userId));
-		this.setMessage("É¾³ı³É¹¦");
+		this.setMessage("åˆªé™¤æˆåŠŸ!");
 		this.setPath("userManage.action");
 		return "succeed";
 	}
@@ -227,7 +212,7 @@ public class UserAction extends ActionSupport
 	public String huiyuanDel()
 	{
 		userDAO.delete(userDAO.findById(userId));
-		this.setMessage("É¾³ı³É¹¦");
+		this.setMessage("åˆªé™¤æˆåŠŸ!");
 		this.setPath("huiyuanManage.action");
 		return "succeed";
 	}
