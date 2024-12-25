@@ -32,7 +32,7 @@ public class zhijiaoAction extends ActionSupport
 		zhijiao.setZhijiaoKecheng(zhijiaoKecheng);
 		zhijiao.setZhijiaoHuiyuan(zhijiaoHuiyuan);
 		zhijiaoDAO.save(zhijiao);
-		this.setMessage("添加成功!");
+		this.setMessage("Add successfully!");
 		this.setPath("zhijiaoManage.action");
 		return "succeed";
 	}
@@ -52,7 +52,7 @@ public class zhijiaoAction extends ActionSupport
 	public String zhijiaoDel()
 	{
 		zhijiaoDAO.delete(zhijiaoDAO.findById(zhijiaoId));
-		this.setMessage("刪除成功!");
+		this.setMessage("Delete successfully!");
 		this.setPath("zhijiaoManage.action");
 		return "succeed";
 	}

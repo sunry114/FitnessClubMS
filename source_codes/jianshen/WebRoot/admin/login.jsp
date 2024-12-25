@@ -94,7 +94,6 @@
                 alert("用戶名或密碼錯誤");
               </s:else>
           }
-
           aa();
       </script>
         <META content="MSHTML 6.00.2800.1522" name=GENERATOR>

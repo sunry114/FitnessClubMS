@@ -40,7 +40,7 @@ public class TUser implements java.io.Serializable
 
 	private String userXueli;
 
-	private String userOne1;//��Ա�ֿ�����
+	private String userOne1;
 
 	private String userOne2;
 

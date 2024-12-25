@@ -15,7 +15,7 @@ String path = request.getContextPath();
 	<link href="<%=path %>/css/Common.css" rel="stylesheet" type="text/css" />
     <link href="<%=path %>/css/sitegeneric08.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="<%=path %>/My97DatePicker/WdatePicker.js"></script>
-    <script type="text/javascript">
+    <script type="text/javascript" charset="UTF-8">
     function check1()
     {
         document.form1.submit();

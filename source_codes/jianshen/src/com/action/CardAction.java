@@ -34,7 +34,7 @@ public class CardAction extends ActionSupport
 		card.setCardYouhuizhengce(cardYouhuizhengce);
 		
 		cardDAO.save(card);
-		this.setMessage("添加成功!");
+		this.setMessage("Add successfully!");
 		this.setPath("cardManage.action");
 		return "succeed";
 	}
@@ -50,7 +50,7 @@ public class CardAction extends ActionSupport
 	public String cardDel()
 	{
 		cardDAO.delete(cardDAO.findById(cardId));
-		this.setMessage("刪除成功!");
+		this.setMessage("Delete successfully!");
 		this.setPath("cardManage.action");
 		return "succeed";
 	}

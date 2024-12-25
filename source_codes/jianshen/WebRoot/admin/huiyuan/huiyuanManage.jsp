@@ -12,7 +12,6 @@
 <html>
 	<head>
 		<style type="text/css">
-<!--
 body {
 	margin-left: 3px;
 	margin-top: 0px;
@@ -41,7 +40,7 @@ a:link {font-size:12px; text-decoration:none; color:#344b50;}
 a:visited {font-size:12px; text-decoration:none; color:#344b50;}
 a:hover{font-size:12px; text-decoration:none; color:#FF0000;}
 </style>
-<script>
+<script charset="UTF-8">
 var  highlightcolor='#d5f4fe';
 var  clickcolor='#51b2f6';
 function  changeto(){

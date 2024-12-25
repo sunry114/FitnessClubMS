@@ -18,7 +18,7 @@ String path = request.getContextPath();
     <script type='text/javascript' src='<%=path %>/dwr/interface/cardService.js'></script>
     <script type='text/javascript' src='<%=path %>/dwr/engine.js'></script>
     <script type='text/javascript' src='<%=path %>/dwr/util.js'></script>
-    <script type="text/javascript">
+    <script type="text/javascript" charset="UTF-8">
     function check1()
     {
         document.form1.submit();

@@ -120,7 +120,7 @@ public class TUserDAO extends HibernateDaoSupport
 		log.debug("finding all TUser instances");
 		try
 		{
-			String queryString = "from TUser where userType !=0 and userType !=8";//8表示是注册用户(会员)
+			String queryString = "from TUser where userType !=0 and userType !=8";
 			return getHibernateTemplate().find(queryString);
 		} catch (RuntimeException re)
 		{
@@ -135,7 +135,7 @@ public class TUserDAO extends HibernateDaoSupport
 		log.debug("finding all TUser instances");
 		try
 		{
-			String queryString = "from TUser where userType=8";////8表示是注册用户(会员)
+			String queryString = "from TUser where userType=8";
 			return getHibernateTemplate().find(queryString);
 		} catch (RuntimeException re)
 		{

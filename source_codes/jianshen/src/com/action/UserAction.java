@@ -36,7 +36,7 @@ public class UserAction extends ActionSupport
 		if(userList.size()==0)
 		{
 			Map request=(Map)ServletActionContext.getContext().get("request");
-			request.put("error", "登錄失敗!");
+			request.put("error", "Login failed!");
     		return ActionSupport.ERROR;
 		}
 		else
@@ -56,7 +56,7 @@ public class UserAction extends ActionSupport
 		if(userList.size()==0)
 		{
 			Map request=(Map)ServletActionContext.getContext().get("request");
-			request.put("error", "登錄失敗!");
+			request.put("error", "Login failed!");
     		return ActionSupport.ERROR;
 		}
 		else
@@ -89,7 +89,7 @@ public class UserAction extends ActionSupport
 		user.setUserPw(userPw);
 		userDAO.getHibernateTemplate().update(user);
 		
-		this.setMessage("正在更改用戶密碼!");
+		this.setMessage("Changing user password!");
 		this.setPath("/admin/anquan/userPwEdit.jsp");
 		return "succeed";
 	}
@@ -193,7 +193,7 @@ public class UserAction extends ActionSupport
 		userDAO.getHibernateTemplate().update(user);
 		
 		session.put("user", user);
-		this.setMessage("用戶信息修改中");
+		this.setMessage("Changing user information");
 		this.setPath("/userinfo.jsp");
 		
 		return "succeed";
@@ -203,7 +203,7 @@ public class UserAction extends ActionSupport
 	public String delUser()
 	{
 		userDAO.delete(userDAO.findById(userId));
-		this.setMessage("刪除成功!");
+		//this.setMessage("Delete successfully!");
 		this.setPath("userManage.action");
 		return "succeed";
 	}
@@ -212,7 +212,7 @@ public class UserAction extends ActionSupport
 	public String huiyuanDel()
 	{
 		userDAO.delete(userDAO.findById(userId));
-		this.setMessage("刪除成功!");
+		//this.setMessage("Delete successfully!");
 		this.setPath("huiyuanManage.action");
 		return "succeed";
 	}
