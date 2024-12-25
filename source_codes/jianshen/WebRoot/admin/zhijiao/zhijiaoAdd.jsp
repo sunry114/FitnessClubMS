@@ -6,7 +6,7 @@ String path = request.getContextPath();
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-  <head>
+<head>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
@@ -16,45 +16,42 @@ String path = request.getContextPath();
     <link href="<%=path %>/css/sitegeneric08.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="<%=path %>/My97DatePicker/WdatePicker.js"></script>
     <script type="text/javascript">
-       function check1()
-       {
-         
-          
-          document.form1.submit();
-       }
+    function check1()
+    {
+        document.form1.submit();
+    }
     </script>
-  </head>
-  
-  <body>
+</head>
+<body>
 		<div class="NewContainer770">
 			<div class="BoxHeader">
-				<div class="BoxHeader-center MarginTop10">录入执教教信息</div>
+				<div class="BoxHeader-center MarginTop10">錄入執教信息</div>
 			</div>
 			<div class="Slot">
 				<form action="<%=path %>/zhijiaoAdd.action" name="form1" method="post">
-				     <table align="left" border="0">
-					        <tr>
-					             <td align="center">教练名:</td>
-					             <td><input type="text" name="zhijiaoJiaolianName" id="zhijiaoJiaolianName"/></td>
-					        </tr>
-					        <tr>
-					             <td align="center">指教课程:</td>
-					             <td><input type="text" id="zhijiaoKecheng" name="zhijiaoKecheng"/></td>
-					        </tr>
-					        <tr>
-					             <td align="center">执教会员:</td>
-					             <td><input type="text" name="zhijiaoHuiyuan" id="zhijiaoHuiyuan"/></td>
-					        </tr>
-					        <tr>
-					             <td colspan="2">
-					                 <input type="submit" value="确定"/>
-					                 <input  type="reset" value="取消"/>
-					                 <font color="red"></font>
-					             </td>
-					        </tr>
-					        <tr height="30">
-					        </tr>
-					    </table>
+				<table align="left" border="0">
+					<tr>
+					<td align="center">教練名:</td>
+					<td><input type="text" name="zhijiaoJiaolianName" id="zhijiaoJiaolianName"/></td>
+					</tr>
+					<tr>
+					<td align="center">執教課程:</td>
+					<td><input type="text" id="zhijiaoKecheng" name="zhijiaoKecheng"/></td>
+					</tr>
+					<tr>
+					<td align="center">執教會員:</td>
+					<td><input type="text" name="zhijiaoHuiyuan" id="zhijiaoHuiyuan"/></td>
+					</tr>
+					<tr>
+					<td colspan="2">
+					<input type="submit" value="確定"/>
+					<input  type="reset" value="取消"/>
+					<font color="red"></font>
+					</td>
+					</tr>
+					<tr height="30">
+					</tr>
+				</table>
 				</form>
 				<ul>
 					<li><a href="" title="">&nbsp;</a> </li>
@@ -62,5 +59,5 @@ String path = request.getContextPath();
 				</ul>
 			</div>
         </div>
-  </body>
+</body>
 </html>

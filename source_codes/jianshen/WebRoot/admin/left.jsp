@@ -6,7 +6,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-  <head>
+<head>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
@@ -29,7 +29,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			a:link {font-size:12px; text-decoration:none; color:#000000;}
 			a:visited {font-size:12px; text-decoration:none; color:#000000;}
 			a:hover{font-size:12px; text-decoration:none; color:#FF0000;}
-			-->
 		</style>
 </head>
 
@@ -158,7 +157,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/admin/huiyuan/huiyuanSearch.jsp" target="rightF"> 搜索會員</a>
+															<a href="<%=path %>/admin/huiyuan/huiyuanSearch.jsp" target="rightF"> 搜索人員</a>
 														</td>
 													</tr>
 												</table>

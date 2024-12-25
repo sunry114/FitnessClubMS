@@ -21,10 +21,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				margin-bottom: 0px;
 				overflow:hidden;
 			}
-			-->
 </style>
 </head>
-
 <body>
 		<table width="100%" height="100%" border="0" margin="10" padding="10" cellspacing="0" cellpadding="0">
 			<tr>

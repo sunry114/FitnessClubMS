@@ -12,7 +12,6 @@
 <html>
 	<head>
 		<style type="text/css">
-<!--
 body {
 	margin-left: 3px;
 	margin-top: 0px;
@@ -40,11 +39,9 @@ body {
 a:link {font-size:12px; text-decoration:none; color:#344b50;}
 a:visited {font-size:12px; text-decoration:none; color:#344b50;}
 a:hover{font-size:12px; text-decoration:none; color:#FF0000;}
--->
 </style>
 		<script>
 var  highlightcolor='#d5f4fe';
-//此处clickcolor只能用win系统颜色代码才能成功,如果用#xxxxxx的代码就不行,还没搞清楚为什么:(
 var  clickcolor='#51b2f6';
 function  changeto(){
 source=event.srcElement;
@@ -111,14 +108,14 @@ for(i=0;i<cs.length;i++){
 														</div>
 													</td>
 													<td width="94%" valign="bottom">
-														<span class="STYLE1">工作人员基本信息列表</span>
+														<span class="STYLE1">工作人員基本信息列表</span>
 													</td>
 												</tr>
 											</table>
 										</td>
 										<td>
 											<div align="right">
-												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/user/userAdd.jsp"> 添加 &nbsp;</a> <img src="images/del.gif" width="10" height="10" /> 删除 &nbsp;&nbsp; &nbsp;</span><span class="STYLE1"> &nbsp;</span>
+												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/user/userAdd.jsp"> 添加 &nbsp;</a></span>
 											</div>
 										</td>
 									</tr>
@@ -134,12 +131,12 @@ for(i=0;i<cs.length;i++){
 						<tr>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">用户名</span>
+									<span class="STYLE10">用戶名</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">用户类型</span>
+									<span class="STYLE10">用戶類型</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
@@ -149,12 +146,12 @@ for(i=0;i<cs.length;i++){
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">性别</span>
+									<span class="STYLE10">性別</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">联系方式</span>
+									<span class="STYLE10">聯係方式</span>
 								</div>
 							</td>
 							
@@ -175,21 +172,21 @@ for(i=0;i<cs.length;i++){
 							<td width="10%" height="20" bgcolor="#FFFFFF" class="STYLE6">
 								<div align="center">
 									<span class="STYLE10">
-									     <s:if test="#user.userType==0">
-									         系统管理员
-									     </s:if>
-									     <s:if test="#user.userType==1">
-									         教练
-									     </s:if>
-									     <s:if test="#user.userType==2">
-									         前台服务人员
-									     </s:if>
-									     <s:if test="#user.userType==3">
-									         销售人员
-									     </s:if>
-									     <s:if test="#user.userType==4">
-									         清洁工
-									     </s:if>
+									<s:if test="#user.userType==0">
+									系統管理員
+									</s:if>
+									<s:if test="#user.userType==1">
+									教練
+									</s:if>
+									<s:if test="#user.userType==2">
+									前臺服務人員
+									</s:if>
+									<s:if test="#user.userType==3">
+									銷售人員
+									</s:if>
+									<s:if test="#user.userType==4">
+									保潔人員
+									</s:if>
                                     </span>
 								</div>
 							</td>
@@ -211,7 +208,7 @@ for(i=0;i<cs.length;i++){
 							
 							<td width="10%" height="20" bgcolor="#FFFFFF" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/delUser.action?userId=<s:property value="#user.userId"/>">删除</a></span>
+									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/delUser.action?userId=<s:property value="#user.userId"/>">刪除</a></span>
 								</div>
 							</td>
 						</tr>

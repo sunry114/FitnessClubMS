@@ -6,7 +6,7 @@ String path = request.getContextPath();
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-  <head>
+<head>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
@@ -16,68 +16,65 @@ String path = request.getContextPath();
     <link href="<%=path %>/css/sitegeneric08.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="<%=path %>/My97DatePicker/WdatePicker.js"></script>
     <script type="text/javascript">
-       function check1()
-       {
-         
-          
-          document.form1.submit();
-       }
+    function check1()
+    {
+        document.form1.submit();
+    }
     </script>
-  </head>
-  
-  <body>
+</head>
+<body>
 		<div class="NewContainer770">
 			<div class="BoxHeader">
 				<div class="BoxHeader-center MarginTop10">录入工作人员</div>
 			</div>
 			<div class="Slot">
 				<form action="<%=path %>/userAdd.action" name="form1" method="post">
-				     <table align="left" border="0">
-					        <tr>
-					             <td align="center">用户名:</td>
-					             <td><input type="text" name="userName" id="userName"/></td>
-					        </tr>
-					        <tr>
-					             <td align="center">用户类型:</td>
-					             <td>
-					                 <select name="userType">
-					                     <option value="1">教练</option>
-					                     <option value="2">前台服务人员</option>
-					                     <option value="3">销售人员</option>
-					                     <option value="4">清洁工</option>
-					                 </select>
-                                 </td>
-					        </tr>
-					        <tr>
-					             <td align="center">住址:</td>
-					             <td><input type="text" name="userAddress"/></td>
-					        </tr>
-					        <tr>
-					             <td align="center">性别:</td>
-					             <td><input type="text" name="userSex"/></td>
-					        </tr>
-					        <tr>
-					             <td align="center">联系方式:</td>
-					             <td><input type="text" name="userTel"/></td>
-					        </tr>
-					        <tr>
-					             <td align="center">email:</td>
-					             <td><input type="text" name="userEmail"/></td>
-					        </tr>
-					        <tr>
-					             <td align="center">QQ:</td>
-					             <td><input type="text" name="userQq"/></td>
-					        </tr>
-					        <tr>
-					             <td colspan="2">
-					                 <input type="submit" value="确定"/>
-					                 <input  type="reset" value="取消"/>
-					                 <font color="red"></font>
-					             </td>
-					        </tr>
-					        <tr height="30">
-					        </tr>
-					    </table>
+				<table align="left" border="0">
+					<tr>
+					<td align="center">用户名:</td>
+					<td><input type="text" name="userName" id="userName"/></td>
+					</tr>
+					<tr>
+					<td align="center">用户类型:</td>
+					<td>
+					<select name="userType">
+					<option value="1">教練</option>
+					<option value="2">前臺服務人員</option>
+					<option value="3">銷售人員</option>
+					<option value="4">保潔人員</option>
+					</select>
+                    </td>
+					</tr>
+					<tr>
+					<td align="center">住址:</td>
+					<td><input type="text" name="userAddress"/></td>
+					</tr>
+					<tr>
+					<td align="center">性別:</td>
+					<td><input type="text" name="userSex"/></td>
+					</tr>
+					<tr>
+					<td align="center">聯係方式:</td>
+					<td><input type="text" name="userTel"/></td>
+					</tr>
+					<tr>
+					<td align="center">email:</td>
+					<td><input type="text" name="userEmail"/></td>
+					</tr>
+					<tr>
+					<td align="center">QQ:</td>
+					<td><input type="text" name="userQq"/></td>
+					</tr>
+					<tr>
+					<td colspan="2">
+					<input type="submit" value="確定"/>
+					<input  type="reset" value="取消"/>
+					<font color="red"></font>
+					</td>
+					</tr>
+					<tr height="30">
+					</tr>
+				</table>
 				</form>
 				<ul>
 					<li><a href="" title="">&nbsp;</a> </li>
@@ -85,5 +82,5 @@ String path = request.getContextPath();
 				</ul>
 			</div>
         </div>
-  </body>
+</body>
 </html>

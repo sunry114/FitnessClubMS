@@ -40,11 +40,9 @@ body {
 a:link {font-size:12px; text-decoration:none; color:#344b50;}
 a:visited {font-size:12px; text-decoration:none; color:#344b50;}
 a:hover{font-size:12px; text-decoration:none; color:#FF0000;}
--->
 </style>
-		<script>
+<script>
 var  highlightcolor='#d5f4fe';
-//此处clickcolor只能用win系统颜色代码才能成功,如果用#xxxxxx的代码就不行,还没搞清楚为什么:(
 var  clickcolor='#51b2f6';
 function  changeto(){
 source=event.srcElement;
@@ -90,78 +88,77 @@ for(i=0;i<cs.length;i++){
 }
 }
 </script>
+</head>
 
-	</head>
-
-	<body>
-		<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-			<tr>
-				<td height="30">
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td height="24" bgcolor="#353c44">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td>
-											<table width="100%" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<td width="6%" height="19" valign="bottom">
-														<div align="center">
-															<img src="images/tb.gif" width="14" height="14" />
-														</div>
-													</td>
-													<td width="94%" valign="bottom">
-														<span class="STYLE1">会员资料基本信息列表</span>
-													</td>
-												</tr>
-											</table>
-										</td>
-										<td>
-											<div align="right">
-												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/huiyuan/huiyuanAdd.jsp"> 添加 &nbsp;</a> <img src="images/del.gif" width="10" height="10" /> 删除 &nbsp;&nbsp; &nbsp;</span><span class="STYLE1"> &nbsp;</span>
-											</div>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#a8c7ce" onmouseover="changeto()" onmouseout="changeback()">
-						<tr>
-							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
-								<div align="center">
-									<span class="STYLE10">姓名</span>
-								</div>
-							</td>
-							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
-								<div align="center">
-									<span class="STYLE10">住址</span>
-								</div>
-							</td>
-							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
-								<div align="center">
-									<span class="STYLE10">性别</span>
-								</div>
-							</td>
-							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
-								<div align="center">
-									<span class="STYLE10">联系方式</span>
-								</div>
-							</td>
-							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
-								<div align="center">
-									<span class="STYLE10">持卡类型</span>
-								</div>
-							</td>
-							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
-								<div align="center">
-									<span class="STYLE10">基本操作</span>
-								</div>
-							</td>
+<body>
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="30">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td height="24" bgcolor="#353c44">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td>
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											<tr>
+												<td width="6%" height="19" valign="bottom">
+													<div align="center">
+														<img src="images/tb.gif" width="14" height="14" />
+													</div>
+												</td>
+												<td width="94%" valign="bottom">
+													<span class="STYLE1">會員資料信息列表</span>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td>
+										<div align="right">
+											<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/huiyuan/huiyuanAdd.jsp"> 添加 &nbsp;</a></span>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#a8c7ce" onmouseover="changeto()" onmouseout="changeback()">
+					<tr>
+						<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
+							<div align="center">
+								<span class="STYLE10">姓名</span>
+							</div>
+						</td>
+						<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
+							<div align="center">
+								<span class="STYLE10">住址</span>
+							</div>
+						</td>
+						<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
+							<div align="center">
+								<span class="STYLE10">性別</span>
+							</div>
+						</td>
+						<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
+							<div align="center">
+								<span class="STYLE10">聯係方式</span>
+							</div>
+						</td>
+						<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
+							<div align="center">
+								<span class="STYLE10">持卡類型</span>
+							</div>
+						</td>
+						<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
+							<div align="center">
+								<span class="STYLE10">基本操作</span>
+							</div>
+						</td>
 						</tr>
                         <s:iterator value="#request.userList" id="user">
                         <tr>
@@ -193,7 +190,7 @@ for(i=0;i<cs.length;i++){
 							</td>
 							<td width="10%" height="20" bgcolor="#FFFFFF" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/huiyuanDel.action?userId=<s:property value="#user.userId"/>">删除</a></span>
+									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/huiyuanDel.action?userId=<s:property value="#user.userId"/>">刪除</a></span>
 								</div>
 							</td>
 						</tr>

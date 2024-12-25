@@ -4,7 +4,7 @@ Navicat MySQL Data Transfer
 Source Server         : localhost
 Source Server Version : 50521
 Source Host           : localhost:3306
-Source Database       : db_jianshen2017_g
+Source Database       : gym_db
 
 Target Server Type    : MYSQL
 Target Server Version : 50521
@@ -111,7 +111,6 @@ INSERT INTO `t_user` VALUES ('2', '刘光亮', null, '1', null, '青岛市', '�
 INSERT INTO `t_user` VALUES ('3', '张三', null, '2', null, '青岛是四方区', '男', '1322222222222', 'zhangsan@yahooo.c', '111111', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
 INSERT INTO `t_user` VALUES ('5', '马大哈', null, '8', null, '上海浦东', '男', '1322222222222', 'madaha@yahooo.cn', '124333', null, null, null, null, '白金卡', null, null, null, null, null, null, null, null, null, null, null);
 INSERT INTO `t_user` VALUES ('6', '蔡依林', null, '8', null, '香港啥尖嘴', '女', '15054256789', 'caiyiling@163。com', '123456', null, null, null, null, '钻石卡', null, null, null, null, null, null, null, null, null, null, null);
-INSERT INTO `t_user` VALUES ('8', 'dd', null, '1', null, 'dd', '男', '2222', '222', '222', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
 
 -- ----------------------------
 -- Table structure for `t_zhijiao`

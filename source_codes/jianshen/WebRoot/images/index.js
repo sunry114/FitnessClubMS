@@ -1,13 +1,13 @@
-//下拉跳转菜单
+//涓嬫媺璺宠浆鑿滃崟
 function MM_jumpMenu(targ,selObj,restore){ //v3.0
   eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
   if (restore) selObj.selectedIndex=0;
 }
-//弹出窗口
+//寮瑰嚭绐楀彛
 function MM_openBrWindow(theURL,winName,features) { //v2.0
   window.open(theURL,winName,features);
 }
-//验证用户登陆
+//楠岃瘉鐢ㄦ埛鐧婚檰
 function checkLogin()
 {
 	if(document.form1.reg_user.value.replace(/\s+$|^\s+/g,"").length<=0||document.form1.reg_pwd.value.replace(/\s+$|^\s+/g,"").length<=0)

@@ -12,7 +12,6 @@
 <html>
 	<head>
 		<style type="text/css">
-<!--
 body {
 	margin-left: 3px;
 	margin-top: 0px;
@@ -40,11 +39,9 @@ body {
 a:link {font-size:12px; text-decoration:none; color:#344b50;}
 a:visited {font-size:12px; text-decoration:none; color:#344b50;}
 a:hover{font-size:12px; text-decoration:none; color:#FF0000;}
--->
 </style>
-		<script>
+<script>
 var  highlightcolor='#d5f4fe';
-//此处clickcolor只能用win系统颜色代码才能成功,如果用#xxxxxx的代码就不行,还没搞清楚为什么:(
 var  clickcolor='#51b2f6';
 function  changeto(){
 source=event.srcElement;
@@ -111,14 +108,14 @@ for(i=0;i<cs.length;i++){
 														</div>
 													</td>
 													<td width="94%" valign="bottom">
-														<span class="STYLE1">教练执教基本信息列表</span>
+														<span class="STYLE1">教練執教基本信息列表</span>
 													</td>
 												</tr>
 											</table>
 										</td>
 										<td>
 											<div align="right">
-												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/zhijiao/zhijiaoAdd.jsp"> 添加 &nbsp;</a> <img src="images/del.gif" width="10" height="10" /> 删除 &nbsp;&nbsp; &nbsp;</span><span class="STYLE1"> &nbsp;</span>
+												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/zhijiao/zhijiaoAdd.jsp"> 添加 &nbsp;</a></span>
 											</div>
 										</td>
 									</tr>
@@ -134,17 +131,17 @@ for(i=0;i<cs.length;i++){
 						<tr>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">教练名</span>
+									<span class="STYLE10">教練名</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">执教课程</span>
+									<span class="STYLE10">執教課程</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">执教会员</span>
+									<span class="STYLE10">執教會員</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
@@ -174,7 +171,7 @@ for(i=0;i<cs.length;i++){
 							
 							<td width="10%" height="20" bgcolor="#FFFFFF" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/zhijiaoDel.action?zhijiaoId=<s:property value="#zhijiao.zhijiaoId"/>">删除</a></span>
+									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/zhijiaoDel.action?zhijiaoId=<s:property value="#zhijiao.zhijiaoId"/>">刪除</a></span>
 								</div>
 							</td>
 						</tr>

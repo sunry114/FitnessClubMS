@@ -4,18 +4,21 @@
       basePath=request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/"; %>
 
       <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-      <HTML>
+      <html>
 
       <HEAD>
         <TITLE>
         </TITLE>
 
-        <style type="text/css">
-        body, html {
+      <style type="text/css">
+        body {
           height: 100%;
           margin: 0;
           font-family: Arial, sans-serif;
-          background: url('../images/login_bg.jpg') no-repeat center center fixed; 
+          background-image: url("../images/login_bg.jpg");
+          background-repeat: no-repeat; 
+          background-size: cover;
+          background-position: center;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -40,7 +43,7 @@
           border-radius: 10px; /* 圆角 */
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
-          .main-title {
+        .main-title {
             text-align: center;
             margin-bottom: 20px;
           }
@@ -69,37 +72,35 @@
           .subheader {
             text-align: center;
           }
-        </style>
-        <script language="javascript">
+      </style>
+      <script language="javascript">
           function check() {
             if (document.ThisForm.username.value == "") {
-              alert("请输入管理员用户名");
+              alert("請輸入管理員用戶名");
               document.ThisForm.username.focus();
               return false;
             }
             if (document.ThisForm.password.value == "") {
-              alert("请输入密码");
+              alert("請輸入密碼");
               document.ThisForm.password.focus();
               return false;
             }
           }
 
           function aa() {
-            <>
               <s:if test="#request.error==null">
               </s:if>
               <s:else>
-                alert("用户名或者密码错误");
+                alert("用戶名或密碼錯誤");
               </s:else>
-            </>
           }
 
           aa();
-        </script>
+      </script>
         <META content="MSHTML 6.00.2800.1522" name=GENERATOR>
       </HEAD>
 
-      <BODY>
+      <body>
         <DIV class="container">
           <DIV class="center-box">
             <DIV class="main-header">
@@ -131,4 +132,5 @@
             </FORM>
           </DIV>
         </DIV>
-      </BODY>
+      </body>
+    </html>

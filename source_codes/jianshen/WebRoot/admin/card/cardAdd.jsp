@@ -6,7 +6,7 @@ String path = request.getContextPath();
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-  <head>
+<head>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
@@ -16,45 +16,43 @@ String path = request.getContextPath();
     <link href="<%=path %>/css/sitegeneric08.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="<%=path %>/My97DatePicker/WdatePicker.js"></script>
     <script type="text/javascript">
-       function check1()
-       {
-         
-          
-          document.form1.submit();
-       }
+    function check1()
+    {
+        document.form1.submit();
+    }
     </script>
-  </head>
-  
-  <body>
+</head>
+
+<body>
 		<div class="NewContainer770">
 			<div class="BoxHeader">
-				<div class="BoxHeader-center MarginTop10">录入会员卡类型</div>
+				<div class="BoxHeader-center MarginTop10">錄入會員卡類型</div>
 			</div>
 			<div class="Slot">
-				<form action="<%=path %>/cardAdd.action" name="form1" method="post">
-				     <table align="left" border="0">
-					        <tr>
-					             <td align="center">会员卡类型:</td>
-					             <td><input type="text" name="cardLeixiong" id="cardLeixiong"/></td>
-					        </tr>
-					        <tr>
-					             <td align="center">会员卡规则:</td>
-					             <td><textarea cols="50" rows="6" name="cardGuize"></textarea></td>
-					        </tr>
-					        <tr>
-					             <td align="center">会员卡优惠政策:</td>
-					             <td><textarea cols="50" rows="6" name="cardYouhuizhengce"></textarea></td>
-					        </tr>
-					        <tr>
-					             <td colspan="2">
-					                 <input type="submit" value="确定"/>
-					                 <input  type="reset" value="取消"/>
-					                 <font color="red"></font>
-					             </td>
-					        </tr>
-					        <tr height="30">
-					        </tr>
-					    </table>
+			<form action="<%=path %>/cardAdd.action" name="form1" method="post">
+				<table align="left" border="0">
+					<tr>
+					<td align="center">會員卡類型:</td>
+					<td><input type="text" name="cardLeixiong" id="cardLeixiong"/></td>
+					</tr>
+					<tr>
+					<td align="center">會員卡規則:</td>
+					<td><textarea cols="50" rows="6" name="cardGuize"></textarea></td>
+					</tr>
+					<tr>
+					<td align="center">會員卡優惠政策:</td>
+					<td><textarea cols="50" rows="6" name="cardYouhuizhengce"></textarea></td>
+					</tr>
+					<tr>
+					<td colspan="2">
+					<input type="submit" value="確定"/>
+					<input  type="reset" value="取消"/>
+					<font color="red"></font>
+					</td>
+					</tr>
+					<tr height="30">
+					</tr>
+					</table>
 				</form>
 				<ul>
 					<li><a href="" title="">&nbsp;</a> </li>

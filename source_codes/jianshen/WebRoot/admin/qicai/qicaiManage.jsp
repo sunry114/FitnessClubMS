@@ -40,11 +40,9 @@ body {
 a:link {font-size:12px; text-decoration:none; color:#344b50;}
 a:visited {font-size:12px; text-decoration:none; color:#344b50;}
 a:hover{font-size:12px; text-decoration:none; color:#FF0000;}
--->
 </style>
-		<script>
+<script>
 var  highlightcolor='#d5f4fe';
-//此处clickcolor只能用win系统颜色代码才能成功,如果用#xxxxxx的代码就不行,还没搞清楚为什么:(
 var  clickcolor='#51b2f6';
 function  changeto(){
 source=event.srcElement;
@@ -118,7 +116,7 @@ for(i=0;i<cs.length;i++){
 										</td>
 										<td>
 											<div align="right">
-												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/qicai/qicaiAdd.jsp"> 添加 &nbsp;</a> <img src="images/del.gif" width="10" height="10" /> 删除 &nbsp;&nbsp; &nbsp;</span><span class="STYLE1"> &nbsp;</span>
+												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/qicai/qicaiAdd.jsp"> 添加 &nbsp;</a></span>
 											</div>
 										</td>
 									</tr>
@@ -134,17 +132,17 @@ for(i=0;i<cs.length;i++){
 						<tr>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">健身器材名称</span>
+									<span class="STYLE10">健身器材名稱</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">购买时间</span>
+									<span class="STYLE10">購買時間</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">备注</span>
+									<span class="STYLE10">備注</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
@@ -174,7 +172,7 @@ for(i=0;i<cs.length;i++){
 							
 							<td width="10%" height="20" bgcolor="#FFFFFF" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/qicaiDel.action?qicaiId=<s:property value="#qicai.qicaiId"/>">删除</a></span>
+									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/qicaiDel.action?qicaiId=<s:property value="#qicai.qicaiId"/>">刪除</a></span>
 								</div>
 							</td>
 						</tr>
