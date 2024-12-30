@@ -107,14 +107,14 @@ for(i=0;i<cs.length;i++){
 													</div>
 												</td>
 												<td width="94%" valign="bottom">
-													<span class="STYLE1">會員資料信息列表</span>
+													<span class="STYLE1">List for Members Information</span>
 												</td>
 											</tr>
 										</table>
 									</td>
 									<td>
 										<div align="right">
-											<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/huiyuan/huiyuanAdd.jsp"> 添加 &nbsp;</a></span>
+											<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/huiyuan/huiyuanAdd.jsp"> Add &nbsp;</a></span>
 										</div>
 									</td>
 								</tr>
@@ -130,32 +130,32 @@ for(i=0;i<cs.length;i++){
 					<tr>
 						<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 							<div align="center">
-								<span class="STYLE10">姓名</span>
+								<span class="STYLE10">Name</span>
 							</div>
 						</td>
 						<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 							<div align="center">
-								<span class="STYLE10">住址</span>
+								<span class="STYLE10">Address</span>
 							</div>
 						</td>
 						<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 							<div align="center">
-								<span class="STYLE10">性別</span>
+								<span class="STYLE10">Gender</span>
 							</div>
 						</td>
 						<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 							<div align="center">
-								<span class="STYLE10">聯係方式</span>
+								<span class="STYLE10">Contacts</span>
 							</div>
 						</td>
 						<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 							<div align="center">
-								<span class="STYLE10">持卡類型</span>
+								<span class="STYLE10">Card Type</span>
 							</div>
 						</td>
 						<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 							<div align="center">
-								<span class="STYLE10">基本操作</span>
+								<span class="STYLE10">Operation</span>
 							</div>
 						</td>
 						</tr>
@@ -189,7 +189,7 @@ for(i=0;i<cs.length;i++){
 							</td>
 							<td width="10%" height="20" bgcolor="#FFFFFF" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/huiyuanDel.action?userId=<s:property value="#user.userId"/>">刪除</a></span>
+									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/huiyuanDel.action?userId=<s:property value="#user.userId"/>">Del</a></span>
 								</div>
 							</td>
 						</tr>

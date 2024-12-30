@@ -108,14 +108,14 @@ for(i=0;i<cs.length;i++){
 														</div>
 													</td>
 													<td width="94%" valign="bottom">
-														<span class="STYLE1">會員卡基本信息列表</span>
+														<span class="STYLE1">List for basic information</span>
 													</td>
 												</tr>
 											</table>
 										</td>
 										<td>
 											<div align="right">
-												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/card/cardAdd.jsp"> 添加 &nbsp;</a></span>
+												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/card/cardAdd.jsp"> Add &nbsp;</a></span>
 											</div>
 										</td>
 									</tr>
@@ -131,22 +131,22 @@ for(i=0;i<cs.length;i++){
 						<tr>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">會員卡類型</span>
+									<span class="STYLE10">Card Type</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">會員卡規則</span>
+									<span class="STYLE10">Card Rules</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">會員卡優化政策</span>
+									<span class="STYLE10">Card Discount</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">基本操作</span>
+									<span class="STYLE10">Operation</span>
 								</div>
 							</td>
 						</tr>
@@ -169,7 +169,7 @@ for(i=0;i<cs.length;i++){
 							</td>
 							<td width="10%" height="20" bgcolor="#FFFFFF" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/cardDel.action?cardId=<s:property value="#card.cardId"/>">刪除</a></span>
+									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/cardDel.action?cardId=<s:property value="#card.cardId"/>">Del</a></span>
 								</div>
 							</td>
 						</tr>

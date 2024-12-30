@@ -36,19 +36,19 @@ String path = request.getContextPath();
 <body onload="init()">
 		<div class="NewContainer770">
 			<div class="BoxHeader">
-				<div class="BoxHeader-center MarginTop10">輸入并搜索</div>
+				<div class="BoxHeader-center MarginTop10">Enter a name to search</div>
 			</div>
 			<div class="Slot">
 				<form action="<%=path %>/huiyuanSearch.action" name="form1" method="post">
 				<table align="left" border="0">
 					<tr>
-					<td align="center">姓名:</td>
+					<td align="center">Name:</td>
 					<td><input type="text" name="userName" id="userName"/></td>
 					</tr>
 					<tr>
 					<td colspan="2">
-					<input type="submit" value="确定"/>
-					<input  type="reset" value="取消"/>
+					<input type="submit" value="Confirm"/>
+					<input  type="reset" value="Cancel"/>
 					<font color="red"></font>
 					</td>
 					</tr>

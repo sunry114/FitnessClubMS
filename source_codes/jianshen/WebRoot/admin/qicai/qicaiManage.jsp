@@ -108,14 +108,14 @@ for(i=0;i<cs.length;i++){
 														</div>
 													</td>
 													<td width="94%" valign="bottom">
-														<span class="STYLE1">健身器材基本信息列表</span>
+														<span class="STYLE1">List for Equipments Information</span>
 													</td>
 												</tr>
 											</table>
 										</td>
 										<td>
 											<div align="right">
-												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/qicai/qicaiAdd.jsp"> 添加 &nbsp;</a></span>
+												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/qicai/qicaiAdd.jsp"> Add &nbsp;</a></span>
 											</div>
 										</td>
 									</tr>
@@ -131,22 +131,22 @@ for(i=0;i<cs.length;i++){
 						<tr>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">健身器材名稱</span>
+									<span class="STYLE10">Equipments Name</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">購買時間</span>
+									<span class="STYLE10">Time of purchasing</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">備注</span>
+									<span class="STYLE10">Coments</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">基本操作</span>
+									<span class="STYLE10">Operation</span>
 								</div>
 							</td>
 						</tr>
@@ -171,7 +171,7 @@ for(i=0;i<cs.length;i++){
 							
 							<td width="10%" height="20" bgcolor="#FFFFFF" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/qicaiDel.action?qicaiId=<s:property value="#qicai.qicaiId"/>">刪除</a></span>
+									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/qicaiDel.action?qicaiId=<s:property value="#qicai.qicaiId"/>">Del</a></span>
 								</div>
 							</td>
 						</tr>

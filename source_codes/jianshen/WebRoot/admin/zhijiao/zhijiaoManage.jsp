@@ -108,14 +108,14 @@ for(i=0;i<cs.length;i++){
 														</div>
 													</td>
 													<td width="94%" valign="bottom">
-														<span class="STYLE1">教練執教基本信息列表</span>
+														<span class="STYLE1">List for Course Enrollment</span>
 													</td>
 												</tr>
 											</table>
 										</td>
 										<td>
 											<div align="right">
-												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/zhijiao/zhijiaoAdd.jsp"> 添加 &nbsp;</a></span>
+												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/zhijiao/zhijiaoAdd.jsp"> Add &nbsp;</a></span>
 											</div>
 										</td>
 									</tr>
@@ -131,22 +131,22 @@ for(i=0;i<cs.length;i++){
 						<tr>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">教練名</span>
+									<span class="STYLE10">Coach Name</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">執教課程</span>
+									<span class="STYLE10">Course Enrolled</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">執教會員</span>
+									<span class="STYLE10">Course Taker</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">基本操作</span>
+									<span class="STYLE10">Operation</span>
 								</div>
 							</td>
 						</tr>
@@ -171,7 +171,7 @@ for(i=0;i<cs.length;i++){
 							
 							<td width="10%" height="20" bgcolor="#FFFFFF" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/zhijiaoDel.action?zhijiaoId=<s:property value="#zhijiao.zhijiaoId"/>">刪除</a></span>
+									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/zhijiaoDel.action?zhijiaoId=<s:property value="#zhijiao.zhijiaoId"/>">Del</a></span>
 								</div>
 							</td>
 						</tr>

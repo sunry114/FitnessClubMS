@@ -22,7 +22,7 @@ String path = request.getContextPath();
         var zhengquePw='<s:property value="#session.admin.userPw"/>';
         if(userPw!=zhengquePw)
         {
-            alert("舊密碼輸入不正確");
+            alert("The former password is wrong");
             return ;
         }
         
@@ -30,7 +30,7 @@ String path = request.getContextPath();
         var newUserPwQueren=document.form1.newUserPwQueren.value;
         if(newUserPw!=newUserPwQueren)
         {
-            alert("兩次輸入的密碼不一致");
+            alert("Entered passwords differ");
             return ;
         }
         
@@ -42,25 +42,25 @@ String path = request.getContextPath();
 <body>
 		<div class="NewContainer770">
 			<div class="BoxHeader">
-				<div class="BoxHeader-center MarginTop10">密碼修改</div>
+				<div class="BoxHeader-center MarginTop10">Change Password</div>
 			</div>
 			<div class="Slot">
 				<form action="<%=path %>/userPwEdit.action" name="form1" method="post">
 				<table align="left" border="0">
 				<tr>
-				<td align="center">舊密碼:</td>
+				<td align="center">Old Password:</td>
 				<td><input type="text" name="userPw" /></td>
 				</tr>
 				<tr>
-				<td align="center">新密碼:</td>
+				<td align="center">New Password:</td>
 				<td><input type="text" name="newUserPw" /></td>
 				</tr>
 				<tr>
-				<td align="center">確認新密碼:</td>
+				<td align="center">Confirm Password:</td>
 				<td><input type="text" name="newUserPwQueren" /></td>
 				</tr>
 				<tr>
-				<td colspan="2"><input type="button" value="确定" onclick="check1()"/><input  type="reset" value="取消"/></td>
+				<td colspan="2"><input type="button" value="Confirm" onclick="check1()"/><input  type="reset" value="Cancel"/></td>
 				</tr>
 				</table>
 				</form>

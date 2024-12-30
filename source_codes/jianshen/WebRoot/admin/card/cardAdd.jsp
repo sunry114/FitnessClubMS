@@ -26,27 +26,27 @@ String path = request.getContextPath();
 <body>
 		<div class="NewContainer770">
 			<div class="BoxHeader">
-				<div class="BoxHeader-center MarginTop10">錄入會員卡類型</div>
+				<div class="BoxHeader-center MarginTop10">Add New Membership Cards</div>
 			</div>
 			<div class="Slot">
 			<form action="<%=path %>/cardAdd.action" name="form1" method="post">
 				<table align="left" border="0">
 					<tr>
-					<td align="center">會員卡類型:</td>
+					<td align="center">Card Type:</td>
 					<td><input type="text" name="cardLeixiong" id="cardLeixiong"/></td>
 					</tr>
 					<tr>
-					<td align="center">會員卡規則:</td>
+					<td align="center">Card Rule:</td>
 					<td><textarea cols="50" rows="6" name="cardGuize"></textarea></td>
 					</tr>
 					<tr>
-					<td align="center">會員卡優惠政策:</td>
+					<td align="center">Card Discount:</td>
 					<td><textarea cols="50" rows="6" name="cardYouhuizhengce"></textarea></td>
 					</tr>
 					<tr>
 					<td colspan="2">
-					<input type="submit" value="確定"/>
-					<input  type="reset" value="取消"/>
+					<input type="submit" value="Confirm"/>
+					<input  type="reset" value="Cancel"/>
 					<font color="red"></font>
 					</td>
 					</tr>

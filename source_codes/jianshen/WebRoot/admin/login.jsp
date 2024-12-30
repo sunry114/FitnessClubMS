@@ -76,12 +76,12 @@
       <script language="javascript">
           function check() {
             if (document.ThisForm.username.value == "") {
-              alert("請輸入管理員用戶名");
+              alert("Please enter username");
               document.ThisForm.username.focus();
               return false;
             }
             if (document.ThisForm.password.value == "") {
-              alert("請輸入密碼");
+              alert("Please enter password");
               document.ThisForm.password.focus();
               return false;
             }
@@ -91,7 +91,7 @@
               <s:if test="#request.error==null">
               </s:if>
               <s:else>
-                alert("用戶名或密碼錯誤");
+                alert("Username or password is incorrect");
               </s:else>
           }
           aa();
@@ -103,28 +103,29 @@
         <DIV class="container">
           <DIV class="center-box">
             <DIV class="main-header">
-              <h2>澳科大健身俱樂部管理系統</h2>
+              <h2 align="center">M.U.S.T. Fitness Club</h2>
+              <h2 align="center">Management System</h2>
             </DIV>
             <form class="login-form" name=ThisForm action="<%=path %>/adminLogin.action" method="POST" >
               <TABLE style="FONT-SIZE: 12px" cellSpacing=0 cellPadding=0 width="92%"align=center border=0>
                   <TR>
-                    <TD height=30 colSpan=2 class="subheader"><h3 class="subheader">用戶登錄 </h3>
+                    <TD height=30 colSpan=2 class="subheader"><h3 class="subheader">User Login </h3>
                   <TR>
                     <TD width="10%"><img src="<%=path %>/images/User.svg" width="20" height="20"></TD>
-                    <TD width="85%" height=30> 用戶名：
+                    <TD width="85%" height=30> Username：
                       <input name="userName" type="text" id="userName" width="50">
                     </TD>
                   </TR>
                   <TR>
                     <TD width="10%"><img src="<%=path %>/images/i_open.gif" width="20" height="18"></TD>
-                    <TD width="85%" height=30>密&nbsp;&nbsp;&nbsp;碼： 
+                    <TD width="85%" height=30>Password&nbsp;：
                       <input name="userPw" type="password" id="userPw" width="50">
                     </TD>
                   </TR>
 
                   <TR valign="bottom">
                     <TD height=50 colSpan=2 align="center" >
-                      <button name="imageField" type="submit" onClick="return check();" id="button">登錄</button>
+                      <button name="imageField" type="submit" onClick="return check();" id="button">Login</button>
                     </TD>
                   </TR>
                 </TABLE>

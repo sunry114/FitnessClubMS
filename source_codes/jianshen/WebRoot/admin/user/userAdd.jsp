@@ -25,40 +25,40 @@ String path = request.getContextPath();
 <body>
 		<div class="NewContainer770">
 			<div class="BoxHeader">
-				<div class="BoxHeader-center MarginTop10">录入工作人员</div>
+				<div class="BoxHeader-center MarginTop10">Enter Staff Information</div>
 			</div>
 			<div class="Slot">
 				<form action="<%=path %>/userAdd.action" name="form1" method="post">
 				<table align="left" border="0">
 					<tr>
-					<td align="center">用户名:</td>
+					<td align="center">Name:</td>
 					<td><input type="text" name="userName" id="userName"/></td>
 					</tr>
 					<tr>
-					<td align="center">用户类型:</td>
+					<td align="center">Staff Type:</td>
 					<td>
 					<select name="userType">
-					<option value="1">教練</option>
-					<option value="2">前臺服務人員</option>
-					<option value="3">銷售人員</option>
-					<option value="4">保潔人員</option>
+					<option value="1">Coach</option>
+					<option value="2">Receptionist</option>
+					<option value="3">Salesman</option>
+					<option value="4">Cleaner</option>
 					</select>
                     </td>
 					</tr>
 					<tr>
-					<td align="center">住址:</td>
+					<td align="center">Address:</td>
 					<td><input type="text" name="userAddress"/></td>
 					</tr>
 					<tr>
-					<td align="center">性別:</td>
+					<td align="center">Gender:</td>
 					<td><input type="text" name="userSex"/></td>
 					</tr>
 					<tr>
-					<td align="center">聯係方式:</td>
+					<td align="center">Contacts:</td>
 					<td><input type="text" name="userTel"/></td>
 					</tr>
 					<tr>
-					<td align="center">email:</td>
+					<td align="center">Email:</td>
 					<td><input type="text" name="userEmail"/></td>
 					</tr>
 					<tr>
@@ -67,8 +67,8 @@ String path = request.getContextPath();
 					</tr>
 					<tr>
 					<td colspan="2">
-					<input type="submit" value="確定"/>
-					<input  type="reset" value="取消"/>
+					<input type="submit" value="Confirm"/>
+					<input  type="reset" value="Cancel"/>
 					<font color="red"></font>
 					</td>
 					</tr>

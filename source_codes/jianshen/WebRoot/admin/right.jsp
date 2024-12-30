@@ -17,7 +17,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
       <br><br><br><br><br><br><br><br>
       <center>
-        <font style="font-size: 34px;">歡迎使用！</font>
+        <font style="font-size: 34px;">Welcome!</font>
       </center>
   </body>
 </html>

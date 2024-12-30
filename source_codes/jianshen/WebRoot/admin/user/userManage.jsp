@@ -108,14 +108,14 @@ for(i=0;i<cs.length;i++){
 														</div>
 													</td>
 													<td width="94%" valign="bottom">
-														<span class="STYLE1">工作人員基本信息列表</span>
+														<span class="STYLE1">List for Staff Information</span>
 													</td>
 												</tr>
 											</table>
 										</td>
 										<td>
 											<div align="right">
-												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/user/userAdd.jsp"> 添加 &nbsp;</a></span>
+												<span class="STYLE1"> <img src="images/add.gif" width="10" height="10" /><a style="color: white;" href="<%=path %>/admin/user/userAdd.jsp"> Add &nbsp;</a></span>
 											</div>
 										</td>
 									</tr>
@@ -131,33 +131,33 @@ for(i=0;i<cs.length;i++){
 						<tr>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">用戶名</span>
+									<span class="STYLE10">Name</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">用戶類型</span>
+									<span class="STYLE10">Staff Type</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">住址</span>
+									<span class="STYLE10">Address</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">性別</span>
+									<span class="STYLE10">Gender</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">聯係方式</span>
+									<span class="STYLE10">Contacts</span>
 								</div>
 							</td>
 							
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">基本操作</span>
+									<span class="STYLE10">Operation</span>
 								</div>
 							</td>
 						</tr>
@@ -173,19 +173,19 @@ for(i=0;i<cs.length;i++){
 								<div align="center">
 									<span class="STYLE10">
 									<s:if test="#user.userType==0">
-									系統管理員
+									Adminstrator
 									</s:if>
 									<s:if test="#user.userType==1">
-									教練
+									Coach
 									</s:if>
 									<s:if test="#user.userType==2">
-									前臺服務人員
+									Receptionist
 									</s:if>
 									<s:if test="#user.userType==3">
-									銷售人員
+									Salesman
 									</s:if>
 									<s:if test="#user.userType==4">
-									保潔人員
+									Cleaner
 									</s:if>
                                     </span>
 								</div>
@@ -208,7 +208,7 @@ for(i=0;i<cs.length;i++){
 							
 							<td width="10%" height="20" bgcolor="#FFFFFF" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/delUser.action?userId=<s:property value="#user.userId"/>">刪除</a></span>
+									<span class="STYLE10"><img width="10" height="10" src="images/del.gif" />&nbsp;&nbsp;&nbsp;<a href="<%=path %>/delUser.action?userId=<s:property value="#user.userId"/>">Del</a></span>
 								</div>
 							</td>
 						</tr>

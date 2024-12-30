@@ -25,27 +25,27 @@ String path = request.getContextPath();
 <body>
 		<div class="NewContainer770">
 			<div class="BoxHeader">
-				<div class="BoxHeader-center MarginTop10">錄入執教信息</div>
+				<div class="BoxHeader-center MarginTop10">Enter Course Information</div>
 			</div>
 			<div class="Slot">
 				<form action="<%=path %>/zhijiaoAdd.action" name="form1" method="post">
 				<table align="left" border="0">
 					<tr>
-					<td align="center">教練名:</td>
+					<td align="center">Coach Name:</td>
 					<td><input type="text" name="zhijiaoJiaolianName" id="zhijiaoJiaolianName"/></td>
 					</tr>
 					<tr>
-					<td align="center">執教課程:</td>
+					<td align="center">Course Enrolled:</td>
 					<td><input type="text" id="zhijiaoKecheng" name="zhijiaoKecheng"/></td>
 					</tr>
 					<tr>
-					<td align="center">執教會員:</td>
+					<td align="center">Course Taker:</td>
 					<td><input type="text" name="zhijiaoHuiyuan" id="zhijiaoHuiyuan"/></td>
 					</tr>
 					<tr>
 					<td colspan="2">
-					<input type="submit" value="確定"/>
-					<input  type="reset" value="取消"/>
+					<input type="submit" value="Confirm"/>
+					<input  type="reset" value="Cancel"/>
 					<font color="red"></font>
 					</td>
 					</tr>

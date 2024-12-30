@@ -66,7 +66,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/admin/anquan/userPwEdit.jsp" target="rightF">修改密碼</a>
+															<a href="<%=path %>/admin/anquan/userPwEdit.jsp" target="rightF">Reset Password</a>
 														</td>
 													</tr>
 												</table>
@@ -88,7 +88,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/userManage.action" target="rightF">工作人員管理</a>
+															<a href="<%=path %>/userManage.action" target="rightF">Staff Manage</a>
 														</td>
 													</tr>
 												</table>
@@ -111,7 +111,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/cardManage.action" target="rightF"> 會員卡類型管理</a>
+															<a href="<%=path %>/cardManage.action" target="rightF"> Membership Type</a>
 														</td>
 													</tr>
 												</table>
@@ -134,7 +134,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/huiyuanManage.action" target="rightF"> 會員信息管理</a>
+															<a href="<%=path %>/huiyuanManage.action" target="rightF"> Mebers-info Manage</a>
 														</td>
 													</tr>
 												</table>
@@ -157,7 +157,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/admin/huiyuan/huiyuanSearch.jsp" target="rightF"> 搜索人員</a>
+															<a href="<%=path %>/admin/huiyuan/huiyuanSearch.jsp" target="rightF"> Search</a>
 														</td>
 													</tr>
 												</table>
@@ -180,7 +180,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/qicaiManage.action" target="rightF">健身器材管理</a>
+															<a href="<%=path %>/qicaiManage.action" target="rightF">Equipments Manage</a>
 														</td>
 													</tr>
 												</table>
@@ -203,7 +203,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="<%=path %>/zhijiaoManage.action" target="rightF">教練執教管理</a>
+															<a href="<%=path %>/zhijiaoManage.action" target="rightF">Course Enroll</a>
 														</td>
 													</tr>
 												</table>
@@ -226,7 +226,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														<td height="23" class="STYLE4" style="cursor:hand"
 															onMouseOver="this.style.backgroundImage='url(<%=path %>/images/tab_bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#adb9c2'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
-															<a href="#" onclick="javascript:parent.parent.location='<%=path %>/admin/logout.jsp';" >安全退出系統</a>
+															<a href="#" onclick="javascript:parent.parent.location='<%=path %>/admin/logout.jsp';" >Safe Logout</a>
 														</td>
 													</tr>
 												</table>
