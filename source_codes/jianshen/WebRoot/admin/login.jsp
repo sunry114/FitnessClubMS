@@ -15,7 +15,7 @@
           height: 100%;
           margin: 0;
           font-family: Arial, sans-serif;
-          background-image: url("../images/login_bg.jpg");
+          background-image: url("http://localhost:8080/jianshen/images/login_bg.jpg");
           background-repeat: no-repeat; 
           background-size: cover;
           background-position: center;
@@ -75,26 +75,28 @@
       </style>
       <script language="javascript">
           function check() {
-            if (document.ThisForm.username.value == "") {
-              alert("Please enter username");
-              document.ThisForm.username.focus();
-              return false;
-            }
-            if (document.ThisForm.password.value == "") {
-              alert("Please enter password");
-              document.ThisForm.password.focus();
-              return false;
-            }
-          }
+            var username = document.getElementById("userName").value;
+            var password = document.getElementById("userPw").value;
 
-          function aa() {
-              <s:if test="#request.error==null">
-              </s:if>
-              <s:else>
+            if (username.trim() === "") {
+                alert("Please enter username");
+                document.getElementById("userName").focus();
+                return false;
+            }
+            if (password.trim() === "") {
+                alert("Please enter password");
+                document.getElementById("userPw").focus();
+                return false;
+            }
+            return true;
+        }
+
+          window.onload = function() {
+            var error = "<s:property value='%{#request.error}'/>";
+            if (error) {
                 alert("Username or password is incorrect");
-              </s:else>
-          }
-          aa();
+            }
+        };
       </script>
         <META content="MSHTML 6.00.2800.1522" name=GENERATOR>
       </HEAD>
@@ -106,26 +108,26 @@
               <h2 align="center">M.U.S.T. Fitness Club</h2>
               <h2 align="center">Management System</h2>
             </DIV>
-            <form class="login-form" name=ThisForm action="<%=path %>/adminLogin.action" method="POST" >
+            <form class="login-form" name=ThisForm action="<%=path %>/adminLogin.action" method="POST" onsubmit="return check();">
               <TABLE style="FONT-SIZE: 12px" cellSpacing=0 cellPadding=0 width="92%"align=center border=0>
                   <TR>
                     <TD height=30 colSpan=2 class="subheader"><h3 class="subheader">User Login </h3>
                   <TR>
                     <TD width="10%"><img src="<%=path %>/images/User.svg" width="20" height="20"></TD>
                     <TD width="85%" height=30> Username：
-                      <input name="userName" type="text" id="userName" width="50">
+                      <input name="userName" type="text" id="userName" width="50" required>
                     </TD>
                   </TR>
                   <TR>
                     <TD width="10%"><img src="<%=path %>/images/i_open.gif" width="20" height="18"></TD>
                     <TD width="85%" height=30>Password&nbsp;：
-                      <input name="userPw" type="password" id="userPw" width="50">
+                      <input name="userPw" type="password" id="userPw" width="50" required>
                     </TD>
                   </TR>
 
                   <TR valign="bottom">
                     <TD height=50 colSpan=2 align="center" >
-                      <button name="imageField" type="submit" onClick="return check();" id="button">Login</button>
+                      <button name="imageField" type="submit" id="button">Login</button>
                     </TD>
                   </TR>
                 </TABLE>
