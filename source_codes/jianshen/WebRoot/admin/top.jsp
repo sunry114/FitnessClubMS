@@ -59,7 +59,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<tr>
 							
 							<td style="FONT-WEIGHT: bold; FONT-SIZE: 23pt; FILTER: Glow(Color=#00347F,Strength=4); WIDTH: 100%; COLOR: #ffffff; font-family: 黑体">
-							&nbsp;&nbsp;M.U.S.T. FitnessClub
+							&nbsp;&nbsp;M.U.S.T. Fitness Club Management System
 							</td>
 							<td width="281" valign="bottom">
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">

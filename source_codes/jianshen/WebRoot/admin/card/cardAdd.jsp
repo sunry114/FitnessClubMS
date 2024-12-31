@@ -40,7 +40,7 @@ String path = request.getContextPath();
 					<td><textarea cols="50" rows="6" name="cardGuize"></textarea></td>
 					</tr>
 					<tr>
-					<td align="center">Card Discount:</td>
+					<td align="center">Discount Policy:</td>
 					<td><textarea cols="50" rows="6" name="cardYouhuizhengce"></textarea></td>
 					</tr>
 					<tr>
@@ -60,5 +60,5 @@ String path = request.getContextPath();
 				</ul>
 			</div>
         </div>
-  </body>
+	</body>
 </html>

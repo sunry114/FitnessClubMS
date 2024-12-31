@@ -141,7 +141,7 @@ for(i=0;i<cs.length;i++){
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
 								<div align="center">
-									<span class="STYLE10">Card Discount</span>
+									<span class="STYLE10">Discount Policy</span>
 								</div>
 							</td>
 							<td width="10%" height="20" bgcolor="d3eaef" class="STYLE6">
